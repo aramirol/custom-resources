@@ -6,7 +6,7 @@
 2. Install plugin and restart Jenkins.
 3. Go to `Manage Jenkins > Configure System` and search for Theme configuration. Add **CSS URL** and enter the following URL:
    ```
-   https://aramirol.github.io/simple-website/customization/material-cyan.css
+   https://aramirol.github.io/custom-resources/jenkins-custom-theme/material-cyan.css
    ```
 4. Save it.
 
