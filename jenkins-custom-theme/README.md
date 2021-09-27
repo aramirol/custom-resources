@@ -1,6 +1,6 @@
 # Jenkins Theme Customization
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jenkins_logo_with_title.svg/1280px-Jenkins_logo_with_title.svg.png" width="30%" />
+<img src="../images/jenkins-logo.png" width="30%" />
 
 ## Custom CSS to Jenkins Server
 1. Go to `Manage Jenkins > Manage Plugins`. 
