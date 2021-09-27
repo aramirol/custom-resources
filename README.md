@@ -4,6 +4,8 @@
 
 Public webpage to share custom resources
 
+* [jenkins-custom-theme](jenkins-custom-theme)
+
 ## License
 
 MIT License
