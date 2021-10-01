@@ -1,0 +1,19 @@
+name: <action-name>
+
+on: 
+  - push
+  - delete
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    name: Git Sync
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - uses: aramirol/git-sync@v0.1
+      with:
+        gitlab-url: <gitlab-url>
+        gitlab-username: <gitlab-username>
+        gitlab-token: <gitlab-token>
