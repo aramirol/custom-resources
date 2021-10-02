@@ -6,7 +6,7 @@ on:
 
 jobs:
   sync_macos:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     name: Git Sync MacOS
     steps:
     - uses: actions/checkout@v2
