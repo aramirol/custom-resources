@@ -5,9 +5,21 @@ on:
   - delete
 
 jobs:
-  sync:
+  sync_ubuntu:
     runs-on: ubuntu-latest
-    name: Git Sync
+    name: Git Sync Linux
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - uses: aramirol/git-sync@v0.1
+      with:
+        gitlab-url: ${{ secrets.GITLAB_URL }}
+        gitlab-username: ${{ secrets.GITLAB_USERNAME }}
+        gitlab-token: ${{ secrets.GITLAB_TOKEN }}
+  sync_macos:
+    runs-on: ubuntu-latest
+    name: Git Sync MacOS
     steps:
     - uses: actions/checkout@v2
       with:
