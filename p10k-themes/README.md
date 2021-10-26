@@ -15,7 +15,7 @@ You must have installed `zsh shell` and `powerlevel10k` before applying these th
 First, copy one of this custom themes files to `$HOME` and rename to `.p10k.zsh`. That means, remove the color spread. Don't forget that this file must be hidden.
 
 ### 1. Automatic configuration
-* Use the following command to download and apply the changes (remember change de color theme **blue** | **orange** | **yellow**):
+* Use the following command to download and apply the changes remembering change de color theme **blue** | **orange** | **yellow** and the mode **dark** | **light**):
   ```sh
   wget -O $HOME/.p10k.zsh https://aramirol.github.io/custom-resources/p10k-themes/p10k.zsh.blue.dark | . ./.zshrc
   ```
@@ -40,7 +40,9 @@ The only changes I have made are the following variables:
 
 |VARIABLE| VALUE | EXAMPLE
 | -- | -- | -- |
-| POWERLEVEL9K_DIR_FOREGROUND | <<numeric_color_code>> | 31
-| POWERLEVEL9K_DIR_SHORTENED_FOREGROUND | <<numeric_color_code>> | 103
-| POWERLEVEL9K_DIR_ANCHOR_FOREGROUND | <<numeric_color_code>> | 39
+| **POWERLEVEL9K_BACKGROUND** | *<<numeric_color_code>>*  | 238 (Grey27)
+| **POWERLEVEL9K_OS_ICON_FOREGROUND** | *<<numeric_color_code>>*  | 255 (Grey93)
+| **POWERLEVEL9K_DIR_FOREGROUND** | *<<numeric_color_code>>* | 31 (DeepSkyBlue3)
+| **POWERLEVEL9K_DIR_SHORTENED_FOREGROUND** | *<<numeric_color_code>>* | 103 (LightSlateGrey)
+| **POWERLEVEL9K_DIR_ANCHOR_FOREGROUND** | *<<numeric_color_code>>* | 39 (DeepSkyBlue1)
 
