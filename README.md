@@ -5,6 +5,7 @@
 Public webpage to share custom resources
 
 * [jenkins-custom-theme](jenkins-custom-theme)
+* [p10k-themes](p10k-themes)
 
 ## License
 
