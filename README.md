@@ -1,6 +1,6 @@
 # custom-resources
 
-![GitHub branch checks state](https://img.shields.io/github/checks-status/aramirol/custom-resources/main?logo=github)
+[![git-sync](https://github.com/aramirol/custom-resources/actions/workflows/main.yml/badge.svg)](https://github.com/aramirol/custom-resources/actions/workflows/main.yml)
 
 Public webpage to share custom resources
 
