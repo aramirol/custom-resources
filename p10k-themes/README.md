@@ -24,9 +24,9 @@ Follow these steps:
 
 The only changes I have made are the following variables:
 
-```sh
-  ##################################[ dir: current directory ]##################################
-  typeset -g POWERLEVEL9K_DIR_FOREGROUND=<<color_code>>
-  typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=<<color_code>>
-  typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=<<color_code>>
-```
+|VARIABLE| VALUE | EXAMPLE
+| -- | -- | -- |
+| POWERLEVEL9K_DIR_FOREGROUND | <<numeric_color_code>> | 31
+| POWERLEVEL9K_DIR_SHORTENED_FOREGROUND | <<numeric_color_code>> | 103
+| POWERLEVEL9K_DIR_ANCHOR_FOREGROUND | <<numeric_color_code>> | 39
+
