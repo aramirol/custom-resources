@@ -17,7 +17,7 @@ First, copy one of this custom themes files to `$HOME` and rename to `.p10k.zsh`
 ### 1. Automatic configuration
 * Use the following command to download and apply the changes remembering change de color theme **blue** | **orange** | **yellow** and the mode **dark** | **light**):
   ```sh
-  wget -O $HOME/.p10k.zsh https://aramirol.github.io/custom-resources/p10k-themes/p10k.zsh.blue.dark | . ./.zshrc
+  wget -O $HOME/.p10k.zsh https://aramirol.github.io/custom-resources/p10k-themes/p10k.zsh.white.dark -o /dev/null | source $HOME/.zshrc
   ```
 
 ### 2. Manual configuration
@@ -31,7 +31,7 @@ First, copy one of this custom themes files to `$HOME` and rename to `.p10k.zsh`
   ```
 * Reload session settings.
   ```sh
-  . ./.zshrc
+  source $HOME/.zshrc
   ```
 
 ## Customizing theme
