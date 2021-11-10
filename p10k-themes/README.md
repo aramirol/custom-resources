@@ -5,6 +5,7 @@ Based on official [p10k official repository](https://github.com/romkatv/powerlev
 * Blue
 * Orange
 * Yellow
+* Cyan
 
 ## Requirements
 
@@ -15,7 +16,7 @@ You must have installed `zsh shell` and `powerlevel10k` before applying these th
 First, copy one of this custom themes files to `$HOME` and rename to `.p10k.zsh`. That means, remove the color spread. Don't forget that this file must be hidden.
 
 ### 1. Automatic configuration
-* Use the following command to download and apply the changes remembering change de color theme **blue** | **orange** | **yellow** and the mode **dark** | **light**):
+* Use the following command to download and apply the changes remembering change de color theme **blue** | **orange** | **yellow** | **cyan** and the mode **dark** | **light**):
   ```sh
   wget -O $HOME/.p10k.zsh https://aramirol.github.io/custom-resources/p10k-themes/p10k.zsh.white.dark -o /dev/null | source $HOME/.zshrc
   ```
