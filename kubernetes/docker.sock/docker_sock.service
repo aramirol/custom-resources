@@ -1,0 +1,11 @@
+[Unit]
+Description=Modify permissions
+After=network.taget
+
+[Service]
+Type=ilde
+ExecStart=/root/docker_sock_acl.sh
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target
