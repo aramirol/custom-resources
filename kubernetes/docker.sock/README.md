@@ -1,5 +1,9 @@
 # docker.sock
 
+To use `docker` command you must change `docker.sock` permissions on the docker service where jenkins is running.
+
+## How to
+
 To automate the docker.sock permissions follow these steps:
 
 1. Download files:
